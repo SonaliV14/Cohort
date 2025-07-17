@@ -3,6 +3,11 @@ const jwt= require("jsonwebtoken");
 const mongoose= require("mongoose");
 const jwtPassword="123456";
 
+const res= await fetch("");
+const json = await res.json({
+
+})
+
 mongoose.connect(
     "mongodb://127.0.0.1:27017/myDatabase",
 );
